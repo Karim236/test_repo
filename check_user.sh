@@ -2,6 +2,8 @@
 
 set -e
 
+echo "main script"
+
 name="$1"
 age="$2"
 
@@ -24,4 +26,3 @@ if [ "$age" -ge 18 ]; then
 else
 	echo "User is under 18"
 fi
-
