@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -e
 
 name="$1"
 age="$2"
